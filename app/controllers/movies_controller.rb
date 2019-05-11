@@ -3,7 +3,8 @@ class MoviesController < ApiController
 
   # GET /movies
   def index
-    @movies = Movie.select("id, title").all
+    @movies = Movie.select("id, title, posterUrl, releaseDate").all
+    @movies = @movies.title(params[:title]) if params[:title].present?
     render json: @movies.to_json
   end
 

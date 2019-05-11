@@ -4,6 +4,9 @@ class SummariesController < ApiController
   # GET /summaries
   def index
     @summaries = Summary.select("id, movie_id, content").all
+    # TODO: Should limit number
+    @summaries = @summaries.movie_id(params[:movie_id]) if params[:movie_id].present?
+
     render json: @summaries.to_json
   end
 
