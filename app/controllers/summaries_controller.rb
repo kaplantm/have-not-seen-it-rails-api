@@ -1,11 +1,10 @@
-class SummariesController < ApplicationController
+class SummariesController < ApiController
   before_action :set_summary, only: [:show, :update, :destroy]
 
   # GET /summaries
   def index
-    @summaries = Summary.all
-
-    render json: @summaries
+    @summaries = Summary.select("id, movie_id, content").all
+    render json: @summaries.to_json
   end
 
   # GET /summaries/1

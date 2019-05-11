@@ -1,11 +1,10 @@
-class MoviesController < ApplicationController
+class MoviesController < ApiController
   before_action :set_movie, only: [:show, :update, :destroy]
 
   # GET /movies
   def index
-    @movies = Movie.all
-
-    render json: @movies
+    @movies = Movie.select("id, title").all
+    render json: @movies.to_json
   end
 
   # GET /movies/1
