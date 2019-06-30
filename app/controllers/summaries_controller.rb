@@ -7,6 +7,8 @@ class SummariesController < ApiController
     # TODO: Should limit number
     @summaries = @summaries.movie_id(params[:movie_id]) if params[:movie_id].present?
 
+    @summaries = @summaries.paginate(page: params[:page],  per_page: params[:pageSize] || 10) if params[:page].present?
+
     render json: @summaries.to_json
   end
 

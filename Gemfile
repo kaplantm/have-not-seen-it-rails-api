@@ -30,6 +30,10 @@ gem 'activeadmin'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# Used for API pagination
+# Based on https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-three#toc-pagination
+gem 'will_paginate', '~> 3.1.0'
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 

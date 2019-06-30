@@ -5,6 +5,7 @@ class MoviesController < ApiController
   def index
     @movies = Movie.select("id, title, posterUrl, releaseDate").all
     @movies = @movies.title(params[:title]) if params[:title].present?
+    @movies = @movies.paginate(page: params[:page], per_page: params[:pageSize] || 10) if params[:page].present?
     render json: @movies.to_json
   end
 
