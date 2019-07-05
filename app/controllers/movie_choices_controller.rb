@@ -2,16 +2,31 @@ class MovieChoicesController < ApplicationController
   before_action :set_movie_choice, only: [:show, :update, :destroy]
 
   # GET /movie_choices
-  def index
-    @movie_choices = MovieChoice.all
-    # @movie_choices = @movie_choices.title(params[:title]) if params[:title].present?
+  def index 
+    @movie_choices = MovieChoice.all.includes(:movie, :summary)
+
+    # paginate
     @movie_choices = @movie_choices.paginate(page: params[:page], per_page: params[:pageSize] || 10) if params[:page].present?
+
+    # filter by movie id
+    @movie_choices = @movie_choices.select{|c| c.movie_id == params[:movie_id].to_f} if params[:movie_id].present?
+
+    # filter by summary id
+    @movie_choices = @movie_choices.select{|c| c.summary_id == params[:summary_id].to_f} if params[:summary_id].present?
+
+    # filter by movie title
+    @movie_choices = @movie_choices.select{|c| c.movie.title == params[:movie_title]} if params[:movie_title].present?
+
+    # filter by correctness
+    @movie_choices = @movie_choices.select{|c| c.movie_id == c.summary.movie_id} if params[:correct].present? && !params[:incorrect].present?
+    @movie_choices = @movie_choices.select{|c| c.movie_id != c.summary.movie_id} if params[:incorrect].present? && !params[:correct].present?
+
+
     # render json: @movie_choices.to_json
-    #     options = {}
-    #     options = {}
+    # options = {}
     # options[:meta] = { total: 2 }
     # options[:include] = [:summary, :'summary.content']
-    render json: serializer.new(@movie_choices)
+    # render json: serializer.new(@movie_choices)
   end
 
   # GET /movie_choices/1
