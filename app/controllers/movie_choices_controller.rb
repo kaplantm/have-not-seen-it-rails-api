@@ -6,7 +6,7 @@ class MovieChoicesController < ApplicationController
     @movie_choices = MovieChoice.all.includes(:movie, :summary)
 
     # paginate
-    @movie_choices = @movie_choices.paginate(page: params[:page], per_page: params[:pageSize] || 10) if params[:page].present?
+    @movie_choices = @movie_choices.page(params[:page]).per(params[:pageSize] || 10) if params[:page].present?
 
     # filter by movie id
     @movie_choices = @movie_choices.select{|c| c.movie_id == params[:movie_id].to_f} if params[:movie_id].present?
@@ -26,7 +26,7 @@ class MovieChoicesController < ApplicationController
     # options = {}
     # options[:meta] = { total: 2 }
     # options[:include] = [:summary, :'summary.content']
-    # render json: serializer.new(@movie_choices)
+    render json: serializer.new(@movie_choices)
   end
 
   # GET /movie_choices/1
