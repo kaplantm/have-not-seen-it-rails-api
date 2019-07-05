@@ -49,4 +49,8 @@ class MoviesController < ApiController
     def movie_params
       params.require(:movie).permit(:title, :releaseDate, :posterUrl)
     end
+    
+    def serializer
+      MovieSerializer
+    end
 end

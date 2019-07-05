@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   scope '/api' do
     resources :summaries
     resources :movies
+    resources :movie_choices
   end
   
 end

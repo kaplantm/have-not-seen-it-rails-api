@@ -52,4 +52,8 @@ class SummariesController < ApiController
     def summary_params
       params.require(:summary).permit(:movie_id, :content)
     end
+
+    def serializer
+      SummarySerializer
+    end
 end
