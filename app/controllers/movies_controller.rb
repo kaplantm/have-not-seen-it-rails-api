@@ -3,8 +3,11 @@ class MoviesController < ApiController
 
   # GET /movies
   def index
-    @movies = Movie.select("id, title, posterUrl, releaseDate").all
+    @movies = Movie.select("id, title, posterUrl, releaseYear").all
     @movies = @movies.title(params[:title]) if params[:title].present?
+    @movies = @movies.select{|m| m.releaseYear == params[:releaseYear].to_f} if params[:releaseYear].present?
+    @movies = @movies.select{|m| m.releaseYear >= params[:minReleaseYear].to_f} if params[:minReleaseYear].present?
+    @movies = @movies.select{|m| m.releaseYear <= params[:maxReleaseYear].to_f} if params[:maxReleaseYear].present?
     @movies = @movies.page(params[:page]).per(params[:pageSize] || 10) if params[:page].present?
     render json: @movies.to_json
   end
@@ -47,7 +50,7 @@ class MoviesController < ApiController
 
     # Only allow a trusted parameter "white list" through.
     def movie_params
-      params.require(:movie).permit(:title, :releaseDate, :posterUrl)
+      params.require(:movie).permit(:title, :releaseYear, :posterUrl)
     end
     
     def serializer

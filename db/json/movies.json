@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "The Shawshank Redemption",
-    "releaseDate": "1994-08-14",
+    "releaseYear": 1994,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.777311",
     "updated_at": "2019-07-01 04:27:04.777311"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "12 Angry Men",
-    "releaseDate": "1957-04-10",
+    "releaseYear": 1957,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,649,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.814111",
     "updated_at": "2019-07-01 04:27:04.814111"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Seven Samurai",
-    "releaseDate": "1956-11-19",
+    "releaseYear": 1956,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2RhYzQ2YTUtYzk0Yy00MTc2LThjNDQtNGVkMDkzNzZiYjVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.825640",
     "updated_at": "2019-07-01 04:27:04.825640"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Avengers: Endgame",
-    "releaseDate": "2019-04-26",
+    "releaseYear": 2019,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.838133",
     "updated_at": "2019-07-01 04:27:04.838133"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "The Lord of the Rings: The Return of the King",
-    "releaseDate": "2003-12-17",
+    "releaseYear": 2003,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.857195",
     "updated_at": "2019-07-01 04:27:04.857195"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Forrest Gump",
-    "releaseDate": "1994-07-06",
+    "releaseYear": 1994,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
     "created_at": "2019-07-01 04:27:04.875584",
     "updated_at": "2019-07-01 04:27:04.875584"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "title": "The Good, the Bad and the Ugly",
-    "releaseDate": "1967-12-29",
+    "releaseYear": 1967,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SY1000_CR0,0,656,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.888451",
     "updated_at": "2019-07-01 04:27:04.888451"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "title": "Goodfellas",
-    "releaseDate": "1990-09-21",
+    "releaseYear": 1990,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX667_CR0,0,667,999_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.901827",
     "updated_at": "2019-07-01 04:27:04.901827"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "title": "Inception",
-    "releaseDate": "2010-07-16",
+    "releaseYear": 2010,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.918431",
     "updated_at": "2019-07-01 04:27:04.918431"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "title": "Pulp Fiction",
-    "releaseDate": "1994-10-14",
+    "releaseYear": 1994,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,686,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.937132",
     "updated_at": "2019-07-01 04:27:04.937132"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "title": "One Flew Over the Cuckoo's Nest",
-    "releaseDate": "1975-11-19",
+    "releaseYear": 1975,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,672,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.953897",
     "updated_at": "2019-07-01 04:27:04.953897"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "title": "The Godfather",
-    "releaseDate": "1972-03-24",
+    "releaseYear": 1972,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.964915",
     "updated_at": "2019-07-01 04:27:04.964915"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "title": "The Dark Knight",
-    "releaseDate": "2008-07-18",
+    "releaseYear": 2008,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.979920",
     "updated_at": "2019-07-01 04:27:04.979920"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "title": "The Matrix",
-    "releaseDate": "1999-03-31",
+    "releaseYear": 1999,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:04.988147",
     "updated_at": "2019-07-01 04:27:04.988147"
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "title": "Fight Club",
-    "releaseDate": "1999-10-15",
+    "releaseYear": 1999,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:05.001506",
     "updated_at": "2019-07-01 04:27:05.001506"
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "title": "The Godfather: Part II",
-    "releaseDate": "1974-12-20",
+    "releaseYear": 1974,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,701,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:05.017870",
     "updated_at": "2019-07-01 04:27:05.017870"
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "title": "The Lord of the Rings: The Two Towers",
-    "releaseDate": "2002-12-18",
+    "releaseYear": 2002,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,684,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:05.052616",
     "updated_at": "2019-07-01 04:27:05.052616"
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "title": "Schindler's List",
-    "releaseDate": "1994-02-04",
+    "releaseYear": 1994,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:05.061687",
     "updated_at": "2019-07-01 04:27:05.061687"
@@ -146,7 +146,7 @@
   {
     "id": 19,
     "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "releaseDate": "2001-12-19",
+    "releaseYear": 2001,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY999_CR0,0,673,999_AL_.jpg",
     "created_at": "2019-07-01 04:27:05.074038",
     "updated_at": "2019-07-01 04:27:05.074038"
@@ -154,9 +154,1852 @@
   {
     "id": 20,
     "title": "Star Wars: Episode V - The Empire Strikes Back",
-    "releaseDate": "1980-06-20",
+    "releaseYear": 1980,
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,641,1000_AL_.jpg",
     "created_at": "2019-07-01 04:27:05.089490",
     "updated_at": "2019-07-01 04:27:05.089490"
+  },
+  {
+    "id": 21,
+    "title": "Interstellar",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 22,
+    "title": "City of God",
+    "releaseYear": 2002,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 23,
+    "title": "Spirited Away",
+    "releaseYear": 2001,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 24,
+    "title": "Saving Private Ryan",
+    "releaseYear": 1998,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 25,
+    "title": "The Green Mile",
+    "releaseYear": 1999,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 26,
+    "title": "Life Is Beautiful",
+    "releaseYear": 1997,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 27,
+    "title": "The Usual Suspects",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 28,
+    "title": "Se7en",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 29,
+    "title": "Léon: The Professional",
+    "releaseYear": 1994,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 30,
+    "title": "The Silence of the Lambs",
+    "releaseYear": 1991,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 31,
+    "title": "Star Wars: Episode IV - A New Hope",
+    "releaseYear": 1977,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 32,
+    "title": "It's a Wonderful Life",
+    "releaseYear": 1946,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 33,
+    "title": "Dangal",
+    "releaseYear": 2016,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 34,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "releaseYear": 2018,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 35,
+    "title": "Avengers: Infinity War",
+    "releaseYear": 2018,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 36,
+    "title": "Whiplash",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 37,
+    "title": "The Intouchables",
+    "releaseYear": 2011,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 38,
+    "title": "The Prestige",
+    "releaseYear": 2006,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 39,
+    "title": "The Departed",
+    "releaseYear": 2006,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 40,
+    "title": "The Pianist",
+    "releaseYear": 2002,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 41,
+    "title": "Memento",
+    "releaseYear": 2000,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 42,
+    "title": "Gladiator",
+    "releaseYear": 2000,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 43,
+    "title": "American History X",
+    "releaseYear": 1998,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 44,
+    "title": "The Lion King",
+    "releaseYear": 1994,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 45,
+    "title": "Terminator 2: Judgment Day",
+    "releaseYear": 1991,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 46,
+    "title": "Cinema Paradiso",
+    "releaseYear": 1988,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 47,
+    "title": "Grave of the Fireflies",
+    "releaseYear": 1988,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 48,
+    "title": "Back to the Future",
+    "releaseYear": 1985,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 49,
+    "title": "Raiders of the Lost Ark",
+    "releaseYear": 1981,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 50,
+    "title": "Apocalypse Now",
+    "releaseYear": 1979,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 51,
+    "title": "Alien",
+    "releaseYear": 1979,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 52,
+    "title": "Once Upon a Time in the West",
+    "releaseYear": 1968,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 53,
+    "title": "Psycho",
+    "releaseYear": 1960,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 54,
+    "title": "Rear Window",
+    "releaseYear": 1954,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 55,
+    "title": "Casablanca",
+    "releaseYear": 1942,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 56,
+    "title": "The Great Dictator",
+    "releaseYear": 1940,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 57,
+    "title": "Modern Times",
+    "releaseYear": 1936,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 58,
+    "title": "City Lights",
+    "releaseYear": 1931,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 59,
+    "title": "Andhadhun",
+    "releaseYear": 2018,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 60,
+    "title": "Your Name",
+    "releaseYear": 2016,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 61,
+    "title": "Coco",
+    "releaseYear": 2017,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 62,
+    "title": "Django Unchained",
+    "releaseYear": 2012,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 63,
+    "title": "The Dark Knight Rises",
+    "releaseYear": 2012,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 64,
+    "title": "3 Idiots",
+    "releaseYear": 2009,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 65,
+    "title": "Like Stars on Earth",
+    "releaseYear": 2007,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 66,
+    "title": "WALL·E",
+    "releaseYear": 2008,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 67,
+    "title": "My Father and My Son",
+    "releaseYear": 2005,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 68,
+    "title": "The Lives of Others",
+    "releaseYear": 2006,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 69,
+    "title": "Oldboy",
+    "releaseYear": 2003,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 70,
+    "title": "American Beauty",
+    "releaseYear": 1999,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 71,
+    "title": "Princess Mononoke",
+    "releaseYear": 1997,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 72,
+    "title": "Braveheart",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 73,
+    "title": "Aliens",
+    "releaseYear": 1986,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 74,
+    "title": "Once Upon a Time in America",
+    "releaseYear": 1984,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 75,
+    "title": "Das Boot",
+    "releaseYear": 1981,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 76,
+    "title": "The Shining",
+    "releaseYear": 1980,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 77,
+    "title": "Dr",
+    "releaseYear": 1964,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 78,
+    "title": "Witness for the Prosecution",
+    "releaseYear": 1957,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 79,
+    "title": "Paths of Glory",
+    "releaseYear": 1957,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 80,
+    "title": "Sunset Blvd",
+    "releaseYear": 1950,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 81,
+    "title": "Drishyam",
+    "releaseYear": 2015,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 82,
+    "title": "The Hunt",
+    "releaseYear": 2012,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 83,
+    "title": "Toy Story 4",
+    "releaseYear": 2019,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 84,
+    "title": "A Separation",
+    "releaseYear": 2011,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 85,
+    "title": "Incendies",
+    "releaseYear": 2010,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 86,
+    "title": "Toy Story 3",
+    "releaseYear": 2010,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 87,
+    "title": "Inglourious Basterds",
+    "releaseYear": 2009,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 88,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "releaseYear": 2004,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 89,
+    "title": "Amélie",
+    "releaseYear": 2001,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 90,
+    "title": "Snatch",
+    "releaseYear": 2000,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 91,
+    "title": "Requiem for a Dream",
+    "releaseYear": 2000,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 92,
+    "title": "L.A",
+    "releaseYear": 1997,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 93,
+    "title": "Good Will Hunting",
+    "releaseYear": 1997,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 94,
+    "title": "Children of Heaven",
+    "releaseYear": 1997,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 95,
+    "title": "The Bandit",
+    "releaseYear": 1996,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 96,
+    "title": "Toy Story",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 97,
+    "title": "Reservoir Dogs",
+    "releaseYear": 1992,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 98,
+    "title": "Full Metal Jacket",
+    "releaseYear": 1987,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 99,
+    "title": "Amadeus",
+    "releaseYear": 1984,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 100,
+    "title": "Scarface",
+    "releaseYear": 1983,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+
+  {
+    "id": 101,
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "releaseYear": 1983,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 102,
+    "title": "Taxi Driver",
+    "releaseYear": 1976,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 103,
+    "title": "Monty Python and the Holy Grail",
+    "releaseYear": 1975,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 104,
+    "title": "The Sting",
+    "releaseYear": 1973,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 105,
+    "title": "A Clockwork Orange",
+    "releaseYear": 1971,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 106,
+    "title": "2001: A Space Odyssey",
+    "releaseYear": 1968,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 107,
+    "title": "For a Few Dollars More",
+    "releaseYear": 1965,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 108,
+    "title": "To Kill a Mockingbird",
+    "releaseYear": 1962,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 109,
+    "title": "Lawrence of Arabia",
+    "releaseYear": 1962,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 110,
+    "title": "Yojimbo",
+    "releaseYear": 1961,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 111,
+    "title": "The Apartment",
+    "releaseYear": 1960,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 112,
+    "title": "North by Northwest",
+    "releaseYear": 1959,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 113,
+    "title": "Vertigo",
+    "releaseYear": 1958,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 114,
+    "title": "Singin' in the Rain",
+    "releaseYear": 1952,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 115,
+    "title": "Ikiru",
+    "releaseYear": 1952,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 116,
+    "title": "Rashomon",
+    "releaseYear": 1950,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 117,
+    "title": "All About Eve",
+    "releaseYear": 1950,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 118,
+    "title": "Bicycle Thieves",
+    "releaseYear": 1948,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 119,
+    "title": "Double Indemnity",
+    "releaseYear": 1944,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 120,
+    "title": "Citizen Kane",
+    "releaseYear": 1941,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 121,
+    "title": "M",
+    "releaseYear": 1931,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 122,
+    "title": "Metropolis",
+    "releaseYear": 1927,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 123,
+    "title": "The Kid",
+    "releaseYear": 1921,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 124,
+    "title": "Green Book",
+    "releaseYear": 2018,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 125,
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "releaseYear": 2017,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 126,
+    "title": "Room",
+    "releaseYear": 2015,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 127,
+    "title": "Winter Sleep",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 128,
+    "title": "Inside Out",
+    "releaseYear": 2015,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 129,
+    "title": "The Secret in Their Eyes",
+    "releaseYear": 2009,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 130,
+    "title": "Warrior",
+    "releaseYear": 2011,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 131,
+    "title": "Up",
+    "releaseYear": 2009,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 132,
+    "title": "The Wolf of Wall Street",
+    "releaseYear": 2013,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 133,
+    "title": "There Will Be Blood",
+    "releaseYear": 2007,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 134,
+    "title": "Pan's Labyrinth",
+    "releaseYear": 2006,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 135,
+    "title": "V for Vendetta",
+    "releaseYear": 2005,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 136,
+    "title": "Rang De Basanti",
+    "releaseYear": 2006,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 137,
+    "title": "Batman Begins",
+    "releaseYear": 2005,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 138,
+    "title": "Downfall",
+    "releaseYear": 2004,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 139,
+    "title": "Howl's Moving Castle",
+    "releaseYear": 2004,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 140,
+    "title": "A Beautiful Mind",
+    "releaseYear": 2001,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 141,
+    "title": "Neon Genesis Evangelion: The End of Evangelion",
+    "releaseYear": 1997,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 142,
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "releaseYear": 1998,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 143,
+    "title": "Trainspotting",
+    "releaseYear": 1996,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 144,
+    "title": "Heat",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 145,
+    "title": "Casino",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 146,
+    "title": "Unforgiven",
+    "releaseYear": 1992,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 147,
+    "title": "Raise the Red Lantern",
+    "releaseYear": 1991,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 148,
+    "title": "Indiana Jones and the Last Crusade",
+    "releaseYear": 1989,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 149,
+    "title": "My Neighbor Totoro",
+    "releaseYear": 1988,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 150,
+    "title": "Die Hard",
+    "releaseYear": 1988,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+
+  {
+    "id": 151,
+    "title": "Come and See",
+    "releaseYear": 1985,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 152,
+    "title": "Ran",
+    "releaseYear": 1985,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 153,
+    "title": "Blade Runner",
+    "releaseYear": 1982,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 154,
+    "title": "Raging Bull",
+    "releaseYear": 1980,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 155,
+    "title": "The Elephant Man",
+    "releaseYear": 1980,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 156,
+    "title": "Chinatown",
+    "releaseYear": 1974,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 157,
+    "title": "Andrei Rublev",
+    "releaseYear": 1966,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 158,
+    "title": "The Great Escape",
+    "releaseYear": 1963,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 159,
+    "title": "Judgment at Nuremberg",
+    "releaseYear": 1961,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 160,
+    "title": "Some Like It Hot",
+    "releaseYear": 1959,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 161,
+    "title": "Wild Strawberries",
+    "releaseYear": 1957,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 162,
+    "title": "The Seventh Seal",
+    "releaseYear": 1957,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 163,
+    "title": "The Bridge on the River Kwai",
+    "releaseYear": 1957,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 164,
+    "title": "On the Waterfront",
+    "releaseYear": 1954,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 165,
+    "title": "Dial M for Murder",
+    "releaseYear": 1954,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 166,
+    "title": "Tokyo Story",
+    "releaseYear": 1953,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 167,
+    "title": "The Third Man",
+    "releaseYear": 1949,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 168,
+    "title": "The Treasure of the Sierra Madre",
+    "releaseYear": 1948,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 169,
+    "title": "Mr",
+    "releaseYear": 1939,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 170,
+    "title": "Gone with the Wind",
+    "releaseYear": 1939,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 171,
+    "title": "Sunrise",
+    "releaseYear": 1927,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 172,
+    "title": "The General",
+    "releaseYear": 1926,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 173,
+    "title": "The Gold Rush",
+    "releaseYear": 1925,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 174,
+    "title": "Sherlock Jr",
+    "releaseYear": 1924,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 175,
+    "title": "The Handmaiden",
+    "releaseYear": 2016,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 176,
+    "title": "Logan",
+    "releaseYear": 2017,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 177,
+    "title": "Wild Tales",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 178,
+    "title": "The Grand Budapest Hotel",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 179,
+    "title": "Gone Girl",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 180,
+    "title": "Hacksaw Ridge",
+    "releaseYear": 2016,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 181,
+    "title": "12 Years a Slave",
+    "releaseYear": 2013,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 182,
+    "title": "Guardians of the Galaxy",
+    "releaseYear": 2014,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 183,
+    "title": "Rush",
+    "releaseYear": 2013,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 184,
+    "title": "Spotlight",
+    "releaseYear": 2015,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 185,
+    "title": "The Help",
+    "releaseYear": 2011,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 186,
+    "title": "Prisoners",
+    "releaseYear": 2013,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 187,
+    "title": "Mad Max: Fury Road",
+    "releaseYear": 2015,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 188,
+    "title": "Gran Torino",
+    "releaseYear": 2008,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 189,
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "releaseYear": 2011,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 190,
+    "title": "Shutter Island",
+    "releaseYear": 2010,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 191,
+    "title": "Hachi: A Dog's Tale",
+    "releaseYear": 2009,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 192,
+    "title": "Mary and Max",
+    "releaseYear": 2009,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 193,
+    "title": "How to Train Your Dragon",
+    "releaseYear": 2010,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 194,
+    "title": "Into the Wild",
+    "releaseYear": 2007,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 195,
+    "title": "No Country for Old Men",
+    "releaseYear": 2007,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 196,
+    "title": "Million Dollar Baby",
+    "releaseYear": 2004,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 197,
+    "title": "Hotel Rwanda",
+    "releaseYear": 2004,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 198,
+    "title": "Before Sunset",
+    "releaseYear": 2004,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 199,
+    "title": "Memories of Murder",
+    "releaseYear": 2003,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 200,
+    "title": "Kill Bill: Vol",
+    "releaseYear": 2003,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+
+  {
+    "id": 201,
+    "title": "Finding Nemo",
+    "releaseYear": 2003,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 202,
+    "title": "Catch Me If You Can",
+    "releaseYear": 2002,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 203,
+    "title": "Donnie Darko",
+    "releaseYear": 2001,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 204,
+    "title": "Amores Perros",
+    "releaseYear": 2000,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 205,
+    "title": "Monsters, Inc",
+    "releaseYear": 2001,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 206,
+    "title": "The Sixth Sense",
+    "releaseYear": 1999,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 207,
+    "title": "The Truman Show",
+    "releaseYear": 1998,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 208,
+    "title": "The Big Lebowski",
+    "releaseYear": 1998,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 209,
+    "title": "In the Mood for Love",
+    "releaseYear": 2000,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 210,
+    "title": "Fargo",
+    "releaseYear": 1996,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 211,
+    "title": "La Haine",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 212,
+    "title": "Before Sunrise",
+    "releaseYear": 1995,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 213,
+    "title": "Jurassic Park",
+    "releaseYear": 1993,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 214,
+    "title": "In the Name of the Father",
+    "releaseYear": 1993,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 215,
+    "title": "Dead Poets Society",
+    "releaseYear": 1989,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 216,
+    "title": "Akira",
+    "releaseYear": 1988,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 217,
+    "title": "The Princess Bride",
+    "releaseYear": 1987,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 218,
+    "title": "Castle in the Sky",
+    "releaseYear": 1986,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 219,
+    "title": "Stand by Me",
+    "releaseYear": 1986,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 220,
+    "title": "Platoon",
+    "releaseYear": 1986,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 221,
+    "title": "Paris, Texas",
+    "releaseYear": 1984,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 222,
+    "title": "Nausicaä of the Valley of the Wind",
+    "releaseYear": 1984,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 223,
+    "title": "The Thing",
+    "releaseYear": 1982,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 224,
+    "title": "Gandhi",
+    "releaseYear": 1982,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 225,
+    "title": "Stalker",
+    "releaseYear": 1979,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 226,
+    "title": "Monty Python's Life of Brian",
+    "releaseYear": 1979,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 227,
+    "title": "The Deer Hunter",
+    "releaseYear": 1978,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 228,
+    "title": "Rocky",
+    "releaseYear": 1976,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 229,
+    "title": "Network",
+    "releaseYear": 1976,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 230,
+    "title": "Barry Lyndon",
+    "releaseYear": 1975,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 231,
+    "title": "Butch Cassidy and the Sundance Kid",
+    "releaseYear": 1969,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 232,
+    "title": "Cool Hand Luke",
+    "releaseYear": 1967,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 233,
+    "title": "Persona",
+    "releaseYear": 1966,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 234,
+    "title": "The 400 Blows",
+    "releaseYear": 1959,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 235,
+    "title": "Ben-Hur",
+    "releaseYear": 1959,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 236,
+    "title": "Diabolique",
+    "releaseYear": 1955,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 237,
+    "title": "The Wages of Fear",
+    "releaseYear": 1953,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 238,
+    "title": "The Maltese Falcon",
+    "releaseYear": 1941,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 239,
+    "title": "Rebecca",
+    "releaseYear": 1940,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 240,
+    "title": "The Grapes of Wrath",
+    "releaseYear": 1940,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 241,
+    "title": "It Happened One Night",
+    "releaseYear": 1934,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 242,
+    "title": "The Passion of Joan of Arc",
+    "releaseYear": 1928,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 243,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "releaseYear": 2003,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 244,
+    "title": "Groundhog Day",
+    "releaseYear": 1993,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 245,
+    "title": "Beauty and the Beast",
+    "releaseYear": 1991,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 246,
+    "title": "The Terminator",
+    "releaseYear": 1984,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 247,
+    "title": "Jaws",
+    "releaseYear": 1975,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 248,
+    "title": "Dog Day Afternoon",
+    "releaseYear": 1975,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 249,
+    "title": "The Exorcist",
+    "releaseYear": 1973,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
+  },
+  {
+    "id": 250,
+    "title": "The Wizard of Oz",
+    "releaseYear": 1939,
+    "posterUrl": "",
+    "created_at": "2019-07-05 05:37:05.074038",
+    "updated_at": "2019-07-05 05:37:05.074038"
   }
 ]

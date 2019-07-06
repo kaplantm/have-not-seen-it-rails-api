@@ -30,7 +30,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # The_Shawshank_Redemption = Movie.create(
 #   title: "The Shawshank Redemption",
-#   releaseDate: "1994-08-14",
+#   releaseYear: "1994-08-14",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
 # )
 # The_Shawshank_Redemption_Summaries = [
@@ -47,7 +47,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Twelve_Angry_Men = Movie.create(
 #   title: "12 Angry Men",
-#   releaseDate: "1957-04-10",
+#   releaseYear: "1957-04-10",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,649,1000_AL_.jpg"
 # )
 # Twelve_Angry_Men_Summaries = [
@@ -60,7 +60,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Seven_Samurai = Movie.create(
 #   title: "Seven Samurai",
-#   releaseDate: "1956-11-19",
+#   releaseYear: "1956-11-19",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BN2RhYzQ2YTUtYzk0Yy00MTc2LThjNDQtNGVkMDkzNzZiYjVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
 # )
 # Seven_Samurai_Summaries = [
@@ -74,7 +74,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Avengers_Endgame = Movie.create(
 #   title: "Avengers: Endgame",
-#   releaseDate: "2019-04-26",
+#   releaseYear: "2019-04-26",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
 # )
 # Avengers_Endgame_Summaries = [
@@ -91,7 +91,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Lotr_rotk = Movie.create(
 #   title: "The Lord of the Rings: The Return of the King",
-#   releaseDate: "2003-12-17",
+#   releaseYear: "2003-12-17",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
 # )
 # Lotr_rotk_Summaries = [
@@ -106,7 +106,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Forrest_Gump = Movie.create(
 #   title: "Forrest Gump",
-#   releaseDate: "1994-07-06",
+#   releaseYear: "1994-07-06",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
 # )
 # Forrest_Gump_Summaries = [
@@ -119,7 +119,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # The_Good_the_Bad_and_the_Ugly= Movie.create(
 #   title: "The Good, the Bad and the Ugly",
-#   releaseDate: "1967-12-29",
+#   releaseYear: "1967-12-29",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SY1000_CR0,0,656,1000_AL_.jpg"
 # )
 # The_Good_the_Bad_and_the_Ugly_Summaries = [
@@ -133,7 +133,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Goodfellas = Movie.create(
 #   title: "Goodfellas",
-#   releaseDate: "1990-09-21",
+#   releaseYear: "1990-09-21",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX667_CR0,0,667,999_AL_.jpg"
 # )
 # Goodfellas_Summaries = [
@@ -148,7 +148,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Inception= Movie.create(
 #   title: "Inception",
-#   releaseDate: "2010-07-16",
+#   releaseYear: "2010-07-16",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
 # )
 # Inception_Summaries = [
@@ -163,7 +163,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Pulp_Fiction= Movie.create(
 #   title: "Pulp Fiction",
-#   releaseDate: "1994-10-14",
+#   releaseYear: "1994-10-14",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,686,1000_AL_.jpg"
 # )
 # Pulp_Fiction_Summaries = [
@@ -178,7 +178,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # One_Flew_Over_the_Cuckoos_Nest= Movie.create(
 #   title: "One Flew Over the Cuckoo's Nest",
-#   releaseDate: "1975-11-19",
+#   releaseYear: "1975-11-19",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,672,1000_AL_.jpg"
 # )
 # One_Flew_Over_the_Cuckoos_Nest_Summaries = [
@@ -191,7 +191,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # The_Godfather= Movie.create(
 #   title: "The Godfather",
-#   releaseDate: "1972-03-24",
+#   releaseYear: "1972-03-24",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg"
 # )
 # The_Godfather_Summaries = [
@@ -206,7 +206,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # The_Dark_Knight= Movie.create(
 #   title: "The Dark Knight",
-#   releaseDate: "2008-07-18",
+#   releaseYear: "2008-07-18",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
 # )
 # The_Dark_Knight_Summaries = [
@@ -219,7 +219,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # The_Matrix = Movie.create(
 #   title: "The Matrix",
-#   releaseDate: "1999-03-31",
+#   releaseYear: "1999-03-31",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg"
 # )
 # The_Matrix_Summaries = [
@@ -234,7 +234,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Fight_Club = Movie.create(
 #   title: "Fight Club",
-#   releaseDate: "1999-10-15",
+#   releaseYear: "1999-10-15",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,676,1000_AL_.jpg"
 # )
 # Fight_Club_Summaries = [
@@ -250,7 +250,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # The_Godfather2 = Movie.create(
 #   title: "The Godfather: Part II",
-#   releaseDate: "1974-12-20",
+#   releaseYear: "1974-12-20",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,701,1000_AL_.jpg"
 # )
 # The_Godfather2_Summaries = [
@@ -268,7 +268,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Lotr_ttt= Movie.create(
 #   title: "The Lord of the Rings: The Two Towers",
-#   releaseDate: "2002-12-18",
+#   releaseYear: "2002-12-18",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,684,1000_AL_.jpg"
 # )
 # Lotr_ttt_Summaries = [
@@ -283,7 +283,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Schindlers_List= Movie.create(
 #   title: "Schindler's List",
-#   releaseDate: "1994-02-04",
+#   releaseYear: "1994-02-04",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
 # )
 # Schindlers_List_Summaries = [
@@ -297,7 +297,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Lotr_Fotr = Movie.create(
 #   title: "The Lord of the Rings: The Fellowship of the Ring",
-#   releaseDate: "2001-12-19",
+#   releaseYear: "2001-12-19",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY999_CR0,0,673,999_AL_.jpg"
 # )
 # Lotr_Fotr_Summaries = [
@@ -313,7 +313,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 # Star_Wars_V = Movie.create(
 #   title: "Star Wars: Episode V - The Empire Strikes Back",
-#   releaseDate: "1980-06-20",
+#   releaseYear: "1980-06-20",
 #   posterUrl: "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,641,1000_AL_.jpg"
 # )
 # Star_Wars_V_Summaries = [
@@ -340,11 +340,11 @@ summaries.each do |summary|
   Summary.create!(summary)
 end
 
-# questionsFilePath = File.join(dirname, 'json/questions.json') 
-# questions = JSON.parse(File.read(questionsFilePath))
-# questions.each do |question|
-#   Question.create!(question)
-# end
+movieChoicesFilePath = File.join(dirname, 'json/movie_choices.json') 
+movieChoicesFilePath = JSON.parse(File.read(movieChoicesFilePath))
+movieChoicesFilePath.each do |movieChoice|
+  MovieChoice.create!(movieChoice)
+end
 
 # choicesFilePath = File.join(dirname, 'json/choices.json') 
 # choices = JSON.parse(File.read(choicesFilePath))

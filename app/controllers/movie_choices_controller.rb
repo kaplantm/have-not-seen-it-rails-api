@@ -17,6 +17,11 @@ class MovieChoicesController < ApplicationController
     # filter by movie title
     @movie_choices = @movie_choices.select{|c| c.movie.title == params[:movie_title]} if params[:movie_title].present?
 
+    # filter by movie year
+    @movie_choices = @movie_choices.select{|c| c.movie.releaseYear == params[:releaseYear].to_f} if params[:releaseYear].present?
+    @movie_choices = @movie_choices.select{|c| c.movie.releaseYear >= params[:minReleaseYear].to_f} if params[:minReleaseYear].present?
+    @movie_choices = @movie_choices.select{|c| c.movie.releaseYear <= params[:maxReleaseYear].to_f} if params[:maxReleaseYear].present?
+
     # filter by correctness
     @movie_choices = @movie_choices.select{|c| c.movie_id == c.summary.movie_id} if params[:correct].present? && !params[:incorrect].present?
     @movie_choices = @movie_choices.select{|c| c.movie_id != c.summary.movie_id} if params[:incorrect].present? && !params[:correct].present?
