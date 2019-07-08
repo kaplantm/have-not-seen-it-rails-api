@@ -4,6 +4,6 @@ class Summary < ApplicationRecord
   belongs_to :movie
 
   def display_name
-    movie.title+": "+content[0...50]+"..."
+    movie.title+": "+content[0...100]+"..."
    end
 end
