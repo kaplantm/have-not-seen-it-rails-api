@@ -6,7 +6,10 @@ Rails.application.routes.draw do
   scope '/api' do
     resources :summaries
     resources :movies
-    resources :movie_choices
+    # https://guides.rubyonrails.org/routing.html#adding-more-restful-actions
+    resources :movie_choices do
+      get 'list', on: :collection
+    end
   end
   
 end

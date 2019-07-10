@@ -3,7 +3,7 @@ ActiveAdmin.register MovieChoice do
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
 # Maybe use grouped_collection_select? https://www.youtube.com/watch?v=j1zZ4Lgzf9s
-
+# Maybe force first choice created to be the right one?
     permit_params :movie_id, :summary_id
 
     form title: 'A custom title' do |f|
