@@ -3,17 +3,16 @@ class MovieChoicesController < ApplicationController
 # add param to pick sort order (e.g. by date added)
 
   def list
-    @movie_choices = MovieChoice.all.includes(:movie, :summary)
+    @movie_choices = MovieChoice.joins(:movie, :summary)
 
     # group by summary id
     @movie_choices = @movie_choices.group(:summary_id)
 
     filter()
-
-    # get array of summary id's w/ 4 or more choices
+    # get array of summary id's w/ 4 or more
     summary_id_count = @movie_choices.count()
-    fullset_summary_ids = summary_id_count.select{|id| summary_id_count[id] >= 0}
 
+    fullset_summary_ids = summary_id_count.select{|id| summary_id_count[id] >= 0}
     data = {valid_choice_sets_by_summary_id:  fullset_summary_ids.keys}
     render json: data
     # render json: serializer.new(@movie_choices)
@@ -21,7 +20,7 @@ class MovieChoicesController < ApplicationController
 
   # GET /movie_choices
   def index
-    @movie_choices = MovieChoice.all.includes(:movie, :summary).order(:summary_id)
+    @movie_choices = MovieChoice.joins(:movie, :summary)
     filter()
     render json: serializer.new(@movie_choices)
   end
@@ -58,30 +57,31 @@ class MovieChoicesController < ApplicationController
 
   private
     def filter()
-      # order by 
-      # need error handling here for invalid order by value
-      @movie_choices = @movie_choices.order(params[:order] || 'created_at ASC')
-
       # paginate
       @movie_choices = @movie_choices.page(params[:page] || 1).per(params[:pageSize] || 12)
 
       # filter by movie id
-      @movie_choices = @movie_choices.select{|c| c.movie_id == params[:movie_id].to_f} if params[:movie_id].present?
+      @movie_choices = @movie_choices.where(movie_id: params[:movie_id].to_f) if params[:movie_id].present?
+      # @movie_choices = @movie_choices.select{|c| c.movie_id == params[:movie_id].to_f} if params[:movie_id].present?
 
       # filter by summary id
-      @movie_choices = @movie_choices.select{|c| c.summary_id == params[:summary_id].to_f} if params[:summary_id].present?
+      @movie_choices = @movie_choices.where(summary_id: params[:summary_id].to_f) if params[:summary_id].present?
 
       # filter by movie title
-      @movie_choices = @movie_choices.select{|c| c.movie.title == params[:movie_title]} if params[:movie_title].present?
+      @movie_choices = @movie_choices.where('movies.title = ?', params[:movie_title]) if params[:movie_title].present?
 
       # filter by movie year
-      @movie_choices = @movie_choices.select{|c| c.movie.releaseYear == params[:releaseYear].to_f} if params[:releaseYear].present?
-      @movie_choices = @movie_choices.select{|c| c.movie.releaseYear >= params[:minReleaseYear].to_f} if params[:minReleaseYear].present?
-      @movie_choices = @movie_choices.select{|c| c.movie.releaseYear <= params[:maxReleaseYear].to_f} if params[:maxReleaseYear].present?
+      @movie_choices = @movie_choices.where('movies.releaseYear = ?', params[:releaseYear].to_f) if params[:releaseYear].present?
+      @movie_choices = @movie_choices.where('movies.minReleaseYear = ?', params[:minReleaseYear].to_f) if params[:minReleaseYear].present?
+      @movie_choices = @movie_choices.where('movies.maxReleaseYear = ?', params[:maxReleaseYear].to_f) if params[:maxReleaseYear].present?
 
       # filter by correctness
-      @movie_choices = @movie_choices.select{|c| c.movie_id == c.summary.movie_id} if params[:correct].present? && !params[:incorrect].present?
-      @movie_choices = @movie_choices.select{|c| c.movie_id != c.summary.movie_id} if params[:incorrect].present? && !params[:correct].present?
+      @movie_choices = @movie_choices.where('movies.id = summaries.movie_id')  if params[:correct].present? && !params[:incorrect].present?
+      @movie_choices = @movie_choices.where('movies.id != summaries.movie_id')  if params[:incorrect].present? && !params[:correct].present? 
+    
+      # order by 
+      # need error handling here for invalid order by value
+      @movie_choices = @movie_choices.order(params[:order] || 'movie_choices.id ASC')
     end 
 
     # Use callbacks to share common setup or constraints between actions.
