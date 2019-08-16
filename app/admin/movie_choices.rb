@@ -6,7 +6,7 @@ ActiveAdmin.register MovieChoice do
 # Maybe force first choice created to be the right one?
     permit_params :movie_id, :summary_id
 
-    form title: 'A custom title' do |f|
+    form title: 'Create Movie Choice' do |f|
       inputs 'Details' do
         f.semantic_errors *f.object.errors.keys
 
@@ -14,7 +14,9 @@ ActiveAdmin.register MovieChoice do
             |summary| MovieChoice.where(:summary_id => summary.id).count < 4
         }
 
-        f.input :movie_id, :as => :select, :collection => Movie.joins(:summaries).group("movies.id").order("movies.title")
+        f.input :movie_id, :as => :select, :collection => Movie.order("movies.title")
+
+        # f.input :movie_id, :as => :select, :collection => Movie.joins(:summaries).group("movies.id").order("movies.title")
        end
       para "Press cancel to return to the list without saving."
       actions

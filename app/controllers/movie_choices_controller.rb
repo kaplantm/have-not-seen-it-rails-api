@@ -1,4 +1,5 @@
 class MovieChoicesController < ApplicationController
+  # skip_before_action :verify_authenticity_token #use for postman testing
   before_action :set_movie_choice, only: [:show, :update, :destroy]
 # add param to pick sort order (e.g. by date added)
 
@@ -8,11 +9,15 @@ class MovieChoicesController < ApplicationController
     # group by summary id
     @movie_choices = @movie_choices.group(:summary_id)
 
+
+    # filter by movie id
+    setSize = params[:setSize].to_i || 3
+
     filter()
     # get array of summary id's w/ 4 or more
     summary_id_count = @movie_choices.count()
 
-    fullset_summary_ids = summary_id_count.select{|id| summary_id_count[id] >= 0}
+    fullset_summary_ids = summary_id_count.select{|id| summary_id_count[id] >= setSize}
     data = {valid_choice_sets_by_summary_id:  fullset_summary_ids.keys}
     render json: data
     # render json: serializer.new(@movie_choices)
@@ -91,7 +96,7 @@ class MovieChoicesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def movie_choice_params
-      params.require(:movie_choice).permit(:movie_id, :summary_id)
+      params.permit(:movie_id, :summary_id)
     end
 
     def serializer
