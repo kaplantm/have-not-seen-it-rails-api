@@ -4,6 +4,8 @@ class MoviesController < ApiController
   # GET /movies
   def index
     @movies = Movie.select("id, title, posterUrl, releaseYear").all
+    @movies = @movies.where(id: params[:movie_id]) if params[:movie_id].present?
+    @movies = @movies.where(id: JSON.parse(params[:movie_ids])) if params[:movie_ids].present?
     @movies = @movies.title(params[:title]) if params[:title].present?
     @movies = @movies.select{|m| m.releaseYear == params[:releaseYear].to_f} if params[:releaseYear].present?
     @movies = @movies.select{|m| m.releaseYear >= params[:minReleaseYear].to_f} if params[:minReleaseYear].present?

@@ -3,11 +3,38 @@ class SummariesController < ApiController
 
   # GET /summaries
   def index
-    @summaries = Summary.select("id, movie_id, content").all
-    # TODO: Should limit number
+    minChoices = params[:minChoices] || 0
+
+    @summaries = Summary.joins(:movie_choices)
+    # @summaries = @summaries.movie_id(params[:movie_id]) if params[:movie_id].present?
+    @summaries = Summary.joins(:movie_choices, :movie).group('id').having("count(movie_choices.id) >= #{minChoices}")
+    # @summaries = Summary.joins(:movie_choices)
+
+    # group by summary id
+    @summaries = @summaries.group(:summary_id)
+
+
+    # @summaries = Summary.select("id, movie_id, content")
+    # # TODO: Should limit number
     @summaries = @summaries.movie_id(params[:movie_id]) if params[:movie_id].present?
     @summaries = @summaries.page(params[:page]).per(params[:pageSize] || 10) if params[:page].present?
-    render json: @summaries.to_json
+
+    # meta do |summary|
+    #   {
+    #     movie_id: summary.movie_id,
+    #     movie_choices_limit: summary.movie_choices.limit(3)
+    #   }
+    # end
+
+    movie_choices_limit = params[:limitChoices] || 3;
+    include_choices = params[:includeChoices].present?;
+    choice_count = params[:choiceLimit].present?;
+    
+    # render json: @summaries.to_json
+    options = {params: {movie_choices_limit: movie_choices_limit, include_choices: include_choices}}
+    # options[:include] = [:movie]
+    # options[:meta] = meta
+    render json: serializer.new(@summaries, options)
   end
 
   # GET /summaries/1

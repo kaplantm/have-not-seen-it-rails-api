@@ -1,4 +1,4 @@
-class MovieChoicesController < ApplicationController
+class MovieChoicesController < ApiController
   # skip_before_action :verify_authenticity_token #use for postman testing
   before_action :set_movie_choice, only: [:show, :update, :destroy]
 # add param to pick sort order (e.g. by date added)
