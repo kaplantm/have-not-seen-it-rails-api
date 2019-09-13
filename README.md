@@ -30,15 +30,15 @@ https://github.com/Netflix/fast_jsonapi
 https://driggl.com/blog/a/from-activemodel-serializers-to-fast-jsonapi
 https://itnext.io/a-quickstart-guide-to-using-serializer-with-your-ruby-on-rails-api-d5052dea52c5
 
-
 Queries summaries for ones with/ more than x movie choices
-http://localhost:3000/api/summaries?page=1&minChoices=3&page=1&pageSize=10
+http://localhost:3000/api/summaries?page=1&minChoices=3&pageSize=10
 
-http://localhost:3000/api/summaries?page=1&minChoices=3&limitChoices=3&page=1&pageSize=10&includeChoices=1
+- returns list of summary ids with enough chocies
 
-For each question, query movies for wrong choices
-http://localhost:3000/api/movies?movie_ids=[1,2,3]
-
+For each question, pick a summary id, query movies for wrong choices
+http://localhost:3000/api/movie_choices?summary_ids=[3,7]
 
 an alternative to consider:
 https://medium.com/@stellamarisnjage/serializing-deeply-nested-associations-in-rails-2173d588c528
+
+http://localhost:3000/api/summaries?page=1&minChoices=3&limitChoices=3&page=1&pageSize=10&includeChoices=1

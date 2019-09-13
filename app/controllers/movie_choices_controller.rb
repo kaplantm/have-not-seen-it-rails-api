@@ -1,33 +1,16 @@
 class MovieChoicesController < ApiController
   # skip_before_action :verify_authenticity_token #use for postman testing
   before_action :set_movie_choice, only: [:show, :update, :destroy]
-# add param to pick sort order (e.g. by date added)
+  # TODO add param to pick sort order (e.g. by date added)
 
-  def list
-    @movie_choices = MovieChoice.joins(:movie, :summary)
-
-    # group by summary id
-    @movie_choices = @movie_choices.group(:summary_id)
-
-
-    # filter by movie id
-    setSize = params[:setSize].to_i || 3
-
-    filter()
-    # get array of summary id's w/ 4 or more
-    summary_id_count = @movie_choices.count()
-
-    fullset_summary_ids = summary_id_count.select{|id| summary_id_count[id] >= setSize}
-    data = {valid_choice_sets_by_summary_id:  fullset_summary_ids.keys}
-    render json: data
-    # render json: serializer.new(@movie_choices)
-  end
 
   # GET /movie_choices
   def index
-    @movie_choices = MovieChoice.joins(:movie, :summary)
+    # @movie_choices = MovieChoice.joins(:movie, :summary)
+    @movie_choices = MovieChoice.includes(:movie)
     filter()
     render json: serializer.new(@movie_choices)
+    # render json: @movie_choices
   end
 
   # GET /movie_choices/1
@@ -69,8 +52,14 @@ class MovieChoicesController < ApiController
       @movie_choices = @movie_choices.where(movie_id: params[:movie_id].to_f) if params[:movie_id].present?
       # @movie_choices = @movie_choices.select{|c| c.movie_id == params[:movie_id].to_f} if params[:movie_id].present?
 
+      # filter by movies ids
+      @movie_choices = @movie_choices.where(movie_id: JSON.parse(params[:movie_ids])) if params[:movie_ids].present?
+
       # filter by summary id
-      @movie_choices = @movie_choices.where(summary_id: params[:summary_id].to_f) if params[:summary_id].present?
+      @movie_choices = @movie_choices.where(summary_id: params[:summary_ids].to_f) if params[:summary_id].present?
+
+      # filter by summary ids
+      @movie_choices = @movie_choices.where(summary_id: JSON.parse(params[:summary_ids])) if params[:summary_ids].present?
 
       # filter by movie title
       @movie_choices = @movie_choices.where('movies.title = ?', params[:movie_title]) if params[:movie_title].present?
